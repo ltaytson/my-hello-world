@@ -4,7 +4,7 @@
  </head>
  <body>
  <?php 
- include 'config.php';
+ include 'config/config.php';
  echo "<p>Hello World {$_SERVER['SERVER_ADDR']} - {$env}</p>";
  ?> 
  </body>
